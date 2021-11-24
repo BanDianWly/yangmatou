@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+				font-size: 12px;
+			}
+			#warp{
+				width: 1500px;
+				height: 600px;
+				/*background: yellow;*/
+				margin: 0 auto;
+			}
+			.top{
+				width: 1500px;
+				height: 50px;
+				background: pink;
+			}
+			.zhong{
+				width: 1500px;
+				height: 150px;
+				/*background: burlywood;*/
+				margin-top: 5px;
+			}
+			.button{
+				width: 1500px;
+				height: 50px;
+				background: pink;
+				margin-top: 10px;
+			}
+			.top_left{
+				float: left;
+				width: 200px;
+				height: 50px;
+				/*background: blue;*/
+			}
+			.top_right{
+				float: right;
+				width: 600px;
+				height: 50px;
+				/*background: blue;*/
+			}
+			.box{
+				width: 100px;
+				height: 50px;
+				float: left;
+				line-height: 50px;
+			}
+			.box1{
+				width: 100px;
+				height: 50px;
+				float: left;
+				line-height: 50px;
+			}
+			.zhong_left{
+				width: 800px;
+				height: 150px;
+				/*background: blue;*/
+				float: left;
+			}
+			.zhong_right{
+				width: 600px;
+				height:150px;
+				float: right;
+				/*background: yellow;*/
+			}
+			.danxuan{
+				float: left;
+				width: 50px;
+				height: 150px;
+			}
+			.dxuan{
+				margin-left: 10px;
+				margin-top: 50px;
+			}
+			.shangp{
+				width: 750px;
+				height: 90px;
+				float: right;
+				/*background: yellow;*/
+				margin-top: 20px;
+			}
+			.tu{
+				width: 90px;
+				height: 90px;
+				float: left;
+			}
+			.jieshao{
+				width: 660px;
+				height: 90px;
+				float: right;
+			}
+			.jieshao1{
+				width: 650px;
+				height: 20px;
+				margin-top: 2px;
+				margin-left: 10px;
+				/*background: green;*/
+			}
+			.csh{
+				width: 50px;
+				height: 20px;
+				background: red;
+				float: left;
+				color: white;
+				line-height: 20px;
+				text-align: center;
+				font-size: 12px;
+			}
+			.jieshao2{
+				width: 230px;
+				height: 20px;
+				float: left;
+				/*background: blue;*/
+			}
+			.shul{
+				width: 40px;
+				text-align: center;
+			}
+			.jia{
+				width: 20px;
+				height: 20px;
+			}
+			.jian{
+				width: 20px;
+				height: 20px;
+			}
+			a{
+				text-decoration: none;
+				color: #000;
+			}
+			.zongjia{
+				width: 200px;
+				height: 50px;
+				float: right;
+				line-height: 50px;
+				font-size: 20px;
+			}
+			#zonhjg{
+				font-size: 20px;
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="warp">
+			<div class="top">
+				<div class="top_left">
+					<p class="box">
+						<span style="padding-left: 10px;"><input type="checkbox" name="" id="" value="" class="qxuan"/>全选</span>
+					</p>
+					<p class="box">商品</p>
+				</div>
+				<div class="top_right">
+					<p class="box1" style="margin-left: 10px;">单价</p>
+					<p class="box1">数量</p>
+					<p class="box1" style="margin-left: 100px;">小计</p>
+					<p class="box1">操作</p>
+				</div>
+			</div>
+			<div class="zhong">
+				<div class="zhong_left">
+					<div class="danxuan">
+						<input type="checkbox" name="" id="" value="" class="dxuan"/>
+					</div>
+					<div class="shangp">
+						<div class="tu">
+							<img src="img/Upan.png"/>
+						</div>
+						<div class="jieshao">
+							<div class="jieshao1">
+								<div class="jieshao2">
+									<p class="csh">京东超市</p>
+									<span>金士顿（Kingston）32GB</span>
+								</div>
+								<span>商务时尚3.0</span>
+							</div>
+							<div class="jieshao1">
+								<div class="jieshao2">
+									<span>USB3.0 U盘 DT100G3 黑色 滑盖设</span>
+								</div>
+								<span>32GB</span>
+							</div>
+							<div class="jieshao1">
+								<div class="jieshao2">
+									<span>选服务 礼品包装</span>
+								</div>
+								<span></span>
+							</div>
+							<div class="jieshao1"></div>
+						</div>
+					</div>
+				</div>
+				<div class="zhong_right">
+					<p class="box1" style="margin-left: 10px; width: 80px;">30</p>
+					<p class="box1" style="width: 120px;">
+						<button class="jian">-</button>
+						<input type="text" name="" id="" value="1" class="shul"/>
+						<button class="jia">+</button>
+					</p>
+					<p class="box1" style="margin-left: 100px;">
+						<span>30</span>
+					</p>
+					<p class="box1">
+						<a href="#" class="shanchu">删除</a>
+					</p>
+				</div>
+			</div>
+			<div class="zhong">
+				<div class="zhong_left">
+					<div class="danxuan">
+						<input type="checkbox" name="" id="" value="" class="dxuan"/>
+					</div>
+					<div class="shangp">
+						<div class="tu">
+							<img src="img/Upan.png"/>
+						</div>
+						<div class="jieshao">
+							<div class="jieshao1">
+								<div class="jieshao2">
+									<p class="csh">京东超市</p>
+									<span>金士顿（Kingston）32GB</span>
+								</div>
+								<span>商务时尚3.0</span>
+							</div>
+							<div class="jieshao1">
+								<div class="jieshao2">
+									<span>USB3.0 U盘 DT100G3 黑色 滑盖设</span>
+								</div>
+								<span>32GB</span>
+							</div>
+							<div class="jieshao1">
+								<div class="jieshao2">
+									<span>选服务 礼品包装</span>
+								</div>
+								<span></span>
+							</div>
+							<div class="jieshao1"></div>
+						</div>
+					</div>
+				</div>
+				<div class="zhong_right">
+					<p class="box1" style="margin-left: 10px; width: 80px;">16</p>
+					<p class="box1" style="width: 120px;">
+						<button class="jian">-</button>
+						<input type="text" name="" id="" value="1" class="shul"/>
+						<button class="jia">+</button>
+					</p>
+					<p class="box1" style="margin-left: 100px;">
+						<span>16</span>
+					</p>
+					<p class="box1">
+						<a href="#" class="shanchu">删除</a>
+					</p>
+				</div>
+			</div>
+			<div class="button">
+				<p class="box" style="width: 130px;">
+						<span style="padding-left: 10px;"><input type="checkbox" name="" id="" value="" class="qxuan"/>全选</span>
+						<a href="#" id="oa">删除选中商品</a>
+				</p>
+				<p class="zongjia">
+					<span>已选择<span id="jiashu">0</span>件商品</span>
+					<span>总价：</span>
+					<span id="zonhjg">0</span>
+				</p>
+			</div>
+		</div>
+	</body>
+	<script>
+		var oqxuan=document.getElementsByClassName('qxuan')
+		var odxuan=document.getElementsByClassName('dxuan')
+		var ozonhjg=document.getElementById('zonhjg')
+		var oshul=document.getElementsByClassName('shul')
+			oqxuan[0].onclick=function(){
+				for(var k=0; k<odxuan.length; k++){
+					if(this.checked){
+						odxuan[k].checked=true
+						oqxuan[1].checked=true
+					}else{
+						odxuan[k].checked=false
+						oqxuan[1].checked=false
+					}
+				}
+				for(var y=0; y<oshul.length; y++){
+					if(this.checked){
+						ozonhjg.innerHTML=Number(ozonhjg.innerText)+parseFloat(Number(oshul[y].value)*Number(oshul[y].parentNode.previousElementSibling.innerText))  
+					}else{
+						ozonhjg.innerHTML=0
+					}		
+				}
+			}
+			oqxuan[1].onclick=function(){
+				for(var k=0; k<odxuan.length; k++){
+					if(this.checked){
+						odxuan[k].checked=true
+						oqxuan[0].checked=true
+					}else{
+						odxuan[k].checked=false
+						oqxuan[0].checked=false
+					}
+				}
+				for(var y=0; y<oshul.length; y++){
+					if(this.checked){
+						ozonhjg.innerHTML=Number(ozonhjg.innerText)+parseFloat(Number(oshul[y].value)*Number(oshul[y].parentNode.previousElementSibling.innerText))  
+					}else{
+						ozonhjg.innerHTML=0
+					}
+				}
+			}
+			var ojia=document.getElementsByClassName('jia')
+			var ojian=document.getElementsByClassName('jian')
+			for(var t=0; t<ojia.length; t++){
+				ojia[t].onclick=function(){
+					this.previousElementSibling.value=Number(this.previousElementSibling.value)+1
+					this.parentNode.nextElementSibling.firstElementChild.innerHTML=parseFloat(Number(this.parentNode.nextElementSibling.firstElementChild.innerHTML)+Number(this.parentNode.previousElementSibling.innerText))
+					if(this.parentNode.parentNode.previousElementSibling.firstElementChild.firstElementChild.checked){
+						ozonhjg.innerHTML=Number(ozonhjg.innerHTML)+Number(this.parentNode.previousElementSibling.innerText)
+					}			
+				}
+			}
+			for(var u=0; u<ojian.length; u++){
+				ojian[u].onclick=function(){
+					if(this.nextElementSibling.value<=0){
+						alert('不')
+					}else{
+						this.nextElementSibling.value=Number(this.nextElementSibling.value)-1
+						this.parentNode.nextElementSibling.firstElementChild.innerHTML=parseFloat(Number(this.parentNode.nextElementSibling.firstElementChild.innerHTML)-Number(this.parentNode.previousElementSibling.innerText))
+						if(this.parentNode.parentNode.previousElementSibling.firstElementChild.firstElementChild.checked){
+							ozonhjg.innerHTML=Number(ozonhjg.innerHTML)-Number(this.parentNode.previousElementSibling.innerText)
+						}
+					}	
+				}
+			}
+			for(var f=0; f<odxuan.length; f++){
+				odxuan[f].onclick=function(){
+					if(this.checked){
+						ozonhjg.innerHTML=Number(ozonhjg.innerHTML)+Number(this.parentNode.parentNode.nextElementSibling.children[2].firstElementChild.innerHTML)
+					}else{
+						ozonhjg.innerHTML=Number(ozonhjg.innerHTML)-Number(this.parentNode.parentNode.nextElementSibling.children[2].firstElementChild.innerHTML)
+					}
+				}
+			}
+			var oshanchu=document.getElementsByClassName('shanchu')
+			for(var s=0; s<oshanchu.length; s++){
+				oshanchu[s].onclick=function(){
+					this.parentNode.parentNode.parentNode.remove()
+					if(this.parentNode.parentNode.previousElementSibling.firstElementChild.firstElementChild.checked){
+						ozonhjg.innerHTML=Number(ozonhjg.innerHTML)-Number(this.parentNode.previousElementSibling.firstElementChild.innerHTML)
+					}
+				}
+			}
+			var ooa=document.getElementById('oa')
+			ooa.onclick=function(){
+				for(var d=0; d<odxuan.length; d++){
+					if(odxuan[d].checked){
+						ozonhjg.innerHTML=Number(ozonhjg.innerHTML)-Number(odxuan[d].parentNode.parentNode.nextElementSibling.children[2].firstElementChild.innerText)
+						odxuan[d].parentNode.parentNode.parentNode.remove()						
+						d--
+					}
+				}
+			}
+			
+//			for(var c=0; c<oshul.length; c++){
+//				oshul[c].onfocus=function(){
+//					this.parentNode.nextElementSibling.firstElementChild.innerHTML=Number(this.parentNode.nextElementSibling.firstElementChild.innerHTML)-
+//				}
+//				oshul[c].onblur=function(){
+//					
+//				}
+//			}
+	</script>
+</html>
