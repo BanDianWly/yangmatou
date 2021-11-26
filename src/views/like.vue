@@ -43,9 +43,9 @@
           <div class="list_img">
             <router-link to="/xiangqing">
               <img
-              src="http://pic2.ymatou.com/2021/09/18/18/62f00c41-a9dd-4d0b-872a-96e91e2ba6ee_1_1_n_w_lb.jpg"
-              alt=""
-            />
+                src="http://pic2.ymatou.com/2021/09/18/18/62f00c41-a9dd-4d0b-872a-96e91e2ba6ee_1_1_n_w_lb.jpg"
+                alt=""
+              />
             </router-link>
           </div>
           <div class="list_text">
@@ -1317,7 +1317,7 @@ li {
     flex-wrap: wrap;
     justify-content: space-between;
     li {
-      width: 1.67rem;
+      width: 49%;
       height: 3rem;
       background: #fff;
       margin-top: 0.1rem;

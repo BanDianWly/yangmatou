@@ -1620,7 +1620,7 @@ li {
       flex-wrap: wrap;
       justify-content: space-between;
       li {
-        width: 1.67rem;
+        width: 49%;
         height: 3rem;
         background: #fff;
         margin-top: 0.1rem;

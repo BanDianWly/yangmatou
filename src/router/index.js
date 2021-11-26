@@ -44,6 +44,11 @@ const routes = [
     name:"xiangqing",
     component:()=>import('@/views/xiangqing')  
   },
+  {
+    path:"/shequ",
+    name:"shequ",
+    component:()=>import('@/views/shequ')  
+  },
 ]
 
 const router = new VueRouter({

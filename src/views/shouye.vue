@@ -3,7 +3,9 @@
     <div class="shouye">
       <div class="shouye_left">
         <span class="sy">首页</span>
-        <span class="sq">社区</span>
+        <router-link to="/shequ">
+          <span class="sq">社区</span>
+        </router-link>
       </div>
       <div class="shouye_right">
         <router-link to="/gouwuche">
@@ -69,7 +71,7 @@ li {
         width: 0.22rem;
         height: 0.25rem;
         line-height: 0.25rem;
-        border-bottom: 0.01rem solid red;
+        border-bottom: 0.01rem solid #cc3333;
         font-size: 0.11rem;
         color: #383838;
       }
